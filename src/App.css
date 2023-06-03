@@ -1,0 +1,74 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.main-body-box{
+  background-color: 	#3f93ad;;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.inner-box{
+  background-color: #fff;
+  width: 400px;
+  height: 600px;
+}
+.app-title-label{
+  background-color: #1ae346;
+  width: 100%;
+  margin: 30px 0;
+  font-size: 48px;
+  font-family: 'Single Day';
+  text-align: center;
+}
+.input-box{
+  width: 100%;
+  padding:0 10%;
+}
+.input-box input{
+  font-size: 24px;
+  width: 80%;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+  border-bottom: 4px solid royalblue;
+}
+
+.btn{
+  border-radius: 50%;
+  background-color: #124c81;
+  font-size: 24px;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  margin-left: 3%;
+  border: 0;
+  color: #fff;
+}
+.btn:hover{
+  
+  background-color: #12813b;
+}
+::placeholder {
+  color: 	#4e6190;
+  opacity: 1; /* Firefox */
+}
+
+.deleteIcon{
+  background-color: rgb(249, 7, 7);
+  font-size: 18px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  padding-top: 3px;
+}
+
+ol{
+  list-style: none;
+  font-size: 20px;
+}
